@@ -1,0 +1,104 @@
+.BoxContainer {
+  .speakerHeading {
+    color: #15b562;
+    border-bottom: 2px solid #15b562;
+    text-align: center;
+    padding: 8px 0;
+  }
+
+  max-width: 46rem;
+  .listContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 1.8rem;
+    margin: 2rem 0;
+  }
+  .list {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    // margin-left: 0.5rem;
+    border-bottom: 1px solid #818080;
+    padding-bottom: 1.1rem;
+    h4 {
+      color: #15b562;
+    }
+  }
+}
+.box {
+  margin: 2rem 0;
+  background-color: #ffffff;
+  border: 3px solid #15b562;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px 0 rgb(0 0 0 / 30%);
+
+  a {
+    color: #ffffff;
+    background-color: #15b562;
+    border: none;
+    display: block;
+    padding: 0.6em 1em !important;
+    font-size: 15px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 3px;
+    font-weight: 700;
+  }
+  h2 {
+    border: none;
+  }
+  h3 {
+    text-align: center;
+  }
+
+  .List {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    font-weight: lighter;
+    color: #535252;
+  }
+  section {
+    padding: 2rem 2rem 0rem 2rem;
+    display: flex;
+    // margin: 2rem;
+    .imgLeft {
+      flex: 1;
+    }
+    .rightDetails {
+      flex: 1;
+      display: flex;
+      gap: 1rem;
+      flex-direction: column;
+    }
+  }
+  h1 {
+    color: #15b562;
+    text-align: center;
+  }
+  padding: 1rem 0;
+}
+.Note {
+  text-align: start;
+  background-color: #ebebeb;
+  padding: 1rem;
+  border-radius: 0.3rem;
+}
+
+.prosAndCons {
+  display: flex;
+  justify-content: space-around;
+  margin: 3rem 0;
+}
+.ProductDetails {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  margin: 1rem 0.4rem;
+}
+.pros {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}

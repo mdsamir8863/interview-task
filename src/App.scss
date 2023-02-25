@@ -1,0 +1,75 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+}
+
+@media screen and (min-width: 544px) {
+  .BoxContainer {
+    margin: auto;
+  }
+  header {
+    height: 15rem;
+    align-items: center;
+    justify-content: center;
+  }
+  // .list {
+  //   display: flex;
+  //   flex-direction: column;
+  //   gap: 15rem;
+  //   background-color: aqua;
+  // }
+}
+// **********************************************
+// MOBILE SCREEN//////////
+@media screen and (max-width: 544px) {
+  header {
+    padding: 2rem 1rem;
+    text-align: center;
+    h1 {
+      font-size: 1.2rem;
+    }
+  }
+  .BoxContainer {
+    margin: 0 1rem;
+  }
+  .box {
+    section {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+    h1 {
+      font-size: 1.5rem;
+    }
+    margin: auto;
+  }
+  .BoxContainer .list{
+    gap: 1rem;
+  }
+  .BoxContainer .Specifications {
+    justify-content: space-between;
+    // margin: 0 1rem;
+    padding: 0 1rem;
+  }
+  .prosAndCons {
+    flex-direction: column;
+    gap: 2rem;
+  }
+}
+//  **************************************
+// tablet, landscape iPad, lo-res laptops ands desktops//////////
+@media (min-width: 544px) {
+  .listContainer {
+    .list {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      // justify-content: space-evenly;
+      // gap: 11rem;
+      padding-right: 11rem;
+    }
+  }
+}
